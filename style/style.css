@@ -1,6 +1,7 @@
 body{
     height:100vh;
     width: auto;
+    font-family:arial,sans-serif;
 }
 
 body #container{
@@ -49,6 +50,30 @@ body #main #drawing-container{
     height: 64vh;
     background-color:white;
     display:grid;
-    grid-template-columns: repeat(64,1fr);
-    grid-template-columns: repeat(64,1fr);
+}
+
+body #main #button-container{
+    padding-right:2vh;
+    padding-left:2vh;
+    margin-right: 2vh;
+    border-radius:5px;
+    align-self: center;
+    display:flex;
+    flex-direction:column;
+    background-color:blueviolet;
+    border-style: solid;
+    border-color:burlywood
+}
+
+body #main #button-container #clear{
+    margin-top:2vh;
+}
+
+body #main #button-container #resolution{
+    margin-top:2vh;
+    margin-bottom:2vh;
+}
+
+.black{
+    background-color:black;
 }
